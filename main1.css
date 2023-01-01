@@ -1,0 +1,111 @@
+body
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+   'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    height: 60rem;
+    
+}
+
+.yellowbox
+{
+
+    background-color: rgb(245, 169, 4);
+    width: 250px;
+    height: 550px;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.greybox
+{
+  
+  background-color: rgb(224, 224, 224);
+  height: 47rem;
+  width: 90rem;
+  box-sizing: border-box;
+}
+
+.mainbox
+{
+    display: flex;
+    height: auto;
+    width: auto;
+
+}
+
+.dotbox{
+    display: flex;
+    border-style: dotted;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 7rem;
+    font-size: 5rem;
+    width: 50rem;
+    margin-top: 50px;
+    margin-left: 130px;
+  
+}
+
+.word{
+    flex-direction: column;
+    font-size: 20px;
+    margin-left: 8rem;
+    margin-top: 3rem;
+}
+
+.blackbox{
+    display: flex;
+    background-color: black;
+    height: 19rem;
+    width: 50rem;
+    margin-left: 8rem;
+    color: azure;
+}
+
+.yellowwords{
+    font-size: 3rem;
+    color: rgb(243, 203, 24);
+    flex-direction: column;
+    display: flex;
+    margin: 20px;
+}
+
+hr.new2 {
+    border-top: 1px dashed rgb(255, 255, 255);
+    width: 150px;
+  }
+
+  .vertical_dotted_line
+{
+    border-left: 2px dotted rgb(255, 255, 255);
+    height: 250px;
+    margin: 28px;
+} 
+
+.wordbox{
+    color: black;
+    padding-left: 50px;
+    background-color: rgb(224, 224, 224);
+    width: 500px;
+}
+
+.imgbox{
+    display: flex;
+
+    width: 24rem;
+    height: 5rem;
+    font-size: 10px;
+}
+
+
+
+
